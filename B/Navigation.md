@@ -59,7 +59,7 @@
 
 # Работы в ЦОД
 
-## [1. На всех устройствах, указанных на топологии, создайте и настройте L3-адреса.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_1.md)
+## [✅1. На всех устройствах, указанных на топологии, создайте и настройте L3-адреса.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_1.md)
 
 ## [2. Все устройства (за исключением DC-STORAGE) должны прослушивать 22 порт SSH исключительно на внутреннем интерфейсе, по протоколу IPv4. Логин доступа - cod_admin:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_2.md)
 
@@ -69,7 +69,7 @@
 
 2.3 На всех целевых машинах в датацентре пользователь cod_admin должен иметь доступ к команде sudo без запроса пароля.
 
-## [3. Между DC-RTR-2,DC-RTR-1,MSK-RTR,YEKT-RTR настройте удалённый защищённый туннель:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_3.md)
+## [✅3. Между DC-RTR-2,DC-RTR-1,MSK-RTR,YEKT-RTR настройте удалённый защищённый туннель:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_3.md)
 
 3.1 В качестве инструмента защиты используйте любое решение;
 
@@ -89,13 +89,13 @@
 
 3.9 При нормальной работе системы, туннели должны быть настроены в строгом соответствии с Топологией VPN. Дополнительные интерфейсы использовать запрещено.
 
-## [4. Для обеспечения сетевого взаимодействия настройте протокол динамической маршрутизации OSPF на роутерах:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_4.md)
+## [✅4. Для обеспечения сетевого взаимодействия настройте протокол динамической маршрутизации OSPF на роутерах:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_4.md)
 
 4.1 Обеспечьте работу OSPF только на туннельных интерфейсах;
 
 4.2 Обеспечьте аутентификацию через в OSPF по ключу - C00lCompanY;
 
-## [5. Для выхода в сеть «Интернет» используйте PAT, настроенный на пограничных роутерах соответственно.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_5.md)
+## [✅5. Для выхода в сеть «Интернет» используйте PAT, настроенный на пограничных роутерах соответственно.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_5.md)
 
 ## [6. На базе сервера CLOUD-VM1 необходимо реализовать OpenConnect со следующей логикой работы:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_6.md)
 
@@ -115,7 +115,7 @@
 | yekt_admin  | Сеть Екатеринбурга  | P@ssw0rd1234  |
 | msk_admin  | Сеть Москвы  | P@ssw0rd1234  |
 
-## [8. На машине DC-STORAGE реализуйте файловый сервер на базе NFS:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_8.md)
+## [✅8. На машине DC-STORAGE реализуйте файловый сервер на базе NFS:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_8.md)
 
 8.1 Обеспечьте автомонтирование NFS-сервера на компьютер MSK-ADMINPC и MSK-WORKER через pam_mount;
 
@@ -148,11 +148,11 @@
 
 10.3 Смонтируйте в каталог /crypto-folder;
 
-## [11. На машине DC-MAILSERVER уже развернут почтовый сервер организации.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_11.md)
+## [✅11. На машине DC-MAILSERVER уже развернут почтовый сервер организации.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_11.md)
 
 11.1 Почтовая система является частью критической инфраструктуры, используйте адрес этой машины для проверки 100% доступности с филиалов.
 
-## [12. Реализуйте отказоустойчивый шлюз по умолчанию в инфраструктуре ЦОД:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_12.md)
+## [✅12. Реализуйте отказоустойчивый шлюз по умолчанию в инфраструктуре ЦОД:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_12.md)
 
 12.1 Используйте протокол VRRP (или его аналоги);
 
