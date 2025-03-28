@@ -215,7 +215,7 @@
 
 7.1 На машине GITLAB необходимо настроить SAST.
 
-## [8. Настройте DHCP-сервер на машине MSK-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_8.md)
+## [✅8. Настройте DHCP-сервер на машине MSK-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_8.md)
 
 Диапазон адресов - 192.168.1.50 - 192.168.1.100;
 
