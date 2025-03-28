@@ -69,7 +69,7 @@
 
 2.3 На всех целевых машинах в датацентре пользователь cod_admin должен иметь доступ к команде sudo без запроса пароля.
 
-## 3. [Между DC-RTR-2,DC-RTR-1,MSK-RTR,YEKT-RTR настройте удалённый защищённый туннель:] (https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C_3.md)
+## [3. Между DC-RTR-2,DC-RTR-1,MSK-RTR,YEKT-RTR настройте удалённый защищённый туннель:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C_3.md)
 
 3.1 В качестве инструмента защиты используйте любое решение;
 
