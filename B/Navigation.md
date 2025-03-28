@@ -61,7 +61,7 @@
 
 ## [✅1. На всех устройствах, указанных на топологии, создайте и настройте L3-адреса.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_1.md)
 
-## [2. Все устройства (за исключением DC-STORAGE) должны прослушивать 22 порт SSH исключительно на внутреннем интерфейсе, по протоколу IPv4. Логин доступа - cod_admin:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_2.md)
+## [✅2. Все устройства (за исключением DC-STORAGE) должны прослушивать 22 порт SSH исключительно на внутреннем интерфейсе, по протоколу IPv4. Логин доступа - cod_admin:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_2.md)
 
 2.1 Доступ исключительно по ключу. Ключ сохраните на сервере DC-STORAGE в каталоге - /ssh_keys, у пользователя cod_admin в домашнем каталоге никаких ключей быть не должно;
 
@@ -97,7 +97,7 @@
 
 ## [✅5. Для выхода в сеть «Интернет» используйте PAT, настроенный на пограничных роутерах соответственно.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_5.md)
 
-## [6. На базе сервера CLOUD-VM1 необходимо реализовать OpenConnect со следующей логикой работы:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_6.md)
+## [✅6. На базе сервера CLOUD-VM1 необходимо реализовать OpenConnect со следующей логикой работы:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_6.md)
 
 6.1 Машина CLOUD-VM1 является публичным ресурсом и компания не скрывает её адрес, а вот адреса роутеров в ЦОДе компания не планирует опубликовывать, именно поэтому CLOUD-VM1 является брокером подключений;
 
@@ -105,7 +105,7 @@
 
 6.3 Для OpenConnect используйте сертификат, выданный основным ЦС в городе Москва.
 
-## [7. Клиентский компьютер REMOTE-TERMINAL подключается на CLOUD-VM1 через OpenConnect-client. В зависимости от логина, меняется сетевая доступность внутренних ресурсов компании, таблица доступности объясняет это подробнее.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_7.md)
+## [✅7. Клиентский компьютер REMOTE-TERMINAL подключается на CLOUD-VM1 через OpenConnect-client. В зависимости от логина, меняется сетевая доступность внутренних ресурсов компании, таблица доступности объясняет это подробнее.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_7.md)
 
 Таблица доступности:
 
@@ -183,7 +183,7 @@
 
 ## [3. Добавьте компьютеры MSK-ADMINPC и MSK-WORKER в домен FreeIPA.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_3.md)
 
-## [4. На компьютере MSK-DC1 разверните Основной Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_4.md)
+## [✅4. На компьютере MSK-DC1 разверните Основной Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_4.md)
 
 Все веб-сервисы должны быть доступны только по протоколу HTTPS, OpenConnect также.
 
@@ -247,7 +247,7 @@ DNS-сервер - 192.168.1.2 и 77.88.8.1;
 
 3.3 Используйте любое техническое решение для реализации данной задачи.
 
-## [4. На сервере YEKT-RTR разверните подчиненный Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_4.md)
+## [✅4. На сервере YEKT-RTR разверните подчиненный Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_4.md)
 
 4.1 Подпишите подчиненный сертификат вашим основном ЦС в городе Москва;
 
@@ -259,7 +259,7 @@ DNS-сервер - 192.168.1.2 и 77.88.8.1;
 
 ## [5. Испольуя подчиненный Центр сертификации обеспечьте корректную работу YEKT-BILLING приложения по HTTPS.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_5.md)
 
-## [6. Реализуйте веб-сайт, на базе YEKT-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_6.md)
+## [✅6. Реализуйте веб-сайт, на базе YEKT-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_6.md)
 
 6.1 веб-сайт с поддержкой авторизации согласено таблице пин-кодов;
 
