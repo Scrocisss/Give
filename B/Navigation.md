@@ -211,7 +211,7 @@
 
 6.1 Настройте sudo для данной группы через парольную авторизацию.
 
-## [7. На машине MSK-GITLAB:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_7.md)
+## [✅7. На машине MSK-GITLAB:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_7.md)
 
 7.1 На машине GITLAB необходимо настроить SAST.
 
