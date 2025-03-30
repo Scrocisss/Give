@@ -98,7 +98,7 @@ mount -a
 
 
 
-
+# ХМММ
 
 https://ptresearch.media/articles/top-10-artefaktov-linux-dlya-rassledovaniya-inczidentov?ysclid=m8q8qtyaua274473452
 
