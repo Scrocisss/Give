@@ -12,3 +12,7 @@ lsblk -f
 unshadow:
 
 https://askubuntu.com/questions/383057/how-to-decode-the-hash-password-in-etc-shadow
+
+autopsy
+
+https://habr.com/ru/companies/alexhost/articles/533260/
