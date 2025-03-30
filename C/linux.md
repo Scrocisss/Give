@@ -1,6 +1,6 @@
 # LINUX
 
-
+https://archive.org/details/access-data-ftk-imager-4.7.1
 
 https://blog.desdelinux.net/ru/сбросить-пароль-root-grub/
 
