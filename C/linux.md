@@ -53,6 +53,13 @@ apt install dwarf2json golang -y
 
 git clone https://github.com/AsafEitani/Volatility3LinuxSymbols
 
+Меняем Dockerfile
+
+```bash
+FROM debian:buster
+COPY --from=golang:1.20-buster /usr/local/go/ /usr/local/go/
+```
+
 ```bash
 apt update && apt install docker.io -y
 systemctl start docker
