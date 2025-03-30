@@ -85,6 +85,8 @@ systemctl enable --now docker
 
 
 iso    /root/mnt    vboxsf    defaults,uid=0,gid=0    0    0
+
+
 mount -a
 
 
