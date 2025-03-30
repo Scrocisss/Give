@@ -106,9 +106,13 @@ https://ptresearch.media/articles/top-10-artefaktov-linux-dlya-rassledovaniya-in
 
 https://habr.com/ru/companies/angarasecurity/articles/767124/
 
-BIZONE
+## BIZONE
 
 https://github.com/bi-zone/triage?tab=readme-ov-file
+
+https://github.com/bi-zone/triage/releases/tag/v1.7.0.1-beta
+
+https://forumsoc.ru/upload/iblock/6fb/53kw21wjkvwqx9y1qooot3v0t7lb6ev2.pdf
 
 
 # С живой системой
