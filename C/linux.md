@@ -51,6 +51,12 @@ Debian Secure Boot CA
 
 git clone https://github.com/AsafEitani/Volatility3LinuxSymbols
 
+```bash
+apt update && apt install docker.io -y
+systemctl start docker
+systemctl enable --now docker
+```
+
 ./build_profile.sh -f "/root/mnt/Forensics-Debian10(1)-Snapshot3.vmem" -v /root/volatility3 -k 4.19.0-22-amd64 -d debian:buster
 
 
