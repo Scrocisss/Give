@@ -102,6 +102,14 @@ mount -a
 
 https://ptresearch.media/articles/top-10-artefaktov-linux-dlya-rassledovaniya-inczidentov?ysclid=m8q8qtyaua274473452
 
++- тоже самое но с доп командами
+
+https://habr.com/ru/companies/angarasecurity/articles/767124/
+
+BIZONE
+
+https://github.com/bi-zone/triage?tab=readme-ov-file
+
 
 # С живой системой
 
