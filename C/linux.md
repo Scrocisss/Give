@@ -25,5 +25,34 @@ https://github.com/volatilityfoundation/volatility3?tab=readme-ov-file
 
 unzip /root/mnt/linux.zip -d /root/mnt/linux_symbols
 
-python vol.py -f "/root/mnt/Forensics-Debian10(1)-Snapshot3.vmem" --symbol-dir /root/mnt/linux_symbols linux.info
+
+
+
+
+
+strings "/root/mnt/Forensics-Debian10(1)-Snapshot3.vmem" | grep -i "Debian"
+
+```bash
+grub_target_cc_version='gcc-8 (Debian 8.3.0-6) 8.3.0'
+4.19.0-22-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.260-1 (2022-09-29)
+Debian Secure Boot CA0
+&Debian Secure Boot Signer 2022 - linux0
+Debian Secure Boot CA
+4.19.0-22-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.260-1 (2022-09-29)
+Debian Secure Boot CA0
+&Debian Secure Boot Signer 2022 - linux0
+Debian Secure Boot CA
+4.19.0-22-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.260-1 (2022-09-29)
+Debian Secure Boot CA0
+&Debian Secure Boot Signer 2022 - linux0
+Debian Secure Boot CA
+4.19.0-22-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.260-1 (2022-09-29)
+```
+
+git clone https://github.com/AsafEitani/Volatility3LinuxSymbols
+
+./build_profile.sh -f "/root/mnt/Forensics-Debian10(1)-Snapshot3.vmem" -v /root/volatility3 -k 4.19.0-22-amd64 -d debian:buster
+
+
+
 
