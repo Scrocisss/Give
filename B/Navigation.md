@@ -115,7 +115,7 @@
 | yekt_admin  | Сеть Екатеринбурга  | P@ssw0rd1234  |
 | msk_admin  | Сеть Москвы  | P@ssw0rd1234  |
 
-## [✅8. На машине DC-STORAGE реализуйте файловый сервер на базе NFS:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_8.md)
+## [❌8. На машине DC-STORAGE реализуйте файловый сервер на базе NFS:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_8.md)
 
 8.1 Обеспечьте автомонтирование NFS-сервера на компьютер MSK-ADMINPC и MSK-WORKER через pam_mount;
 
@@ -134,13 +134,13 @@
 | /storage/it  | IT  | $HOME/Desktop/IT_Folder  |
 | /storage/office  | office  | $HOME/Desktop/Office_Folder  |
 
-## [9. Реализуйте систему резервного копирования важных данных:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_9.md)
+## [❌9. Реализуйте систему резервного копирования важных данных:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_9.md)
 
 9.1 Необходимо сделать так, что после создания пользователем из группы OFFICE в каталоге его группы файла с именем “SAVE” в любом регистре и в любом месте наименования файла (например, saveme.txt; SAVE_Customer.docx;sAvE_billing.pdf;booking_save_plz.xslx и т.д.) файл автоматически сохранялся на отдельно смонтированный Crypto-LVM массив на сервере DC-STORAGE /crypto-folder.
 
 9.2 В случае, если файл был удалён пользователем, то он не удаляется с места резервного копирования.
 
-## [10. Реализуйте LVM-массив на DC-STORAGE по следующим требованиям:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_10.md)
+## [❌10. Реализуйте LVM-массив на DC-STORAGE по следующим требованиям:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_10.md)
 
 10.1 LVM-массив из трёх дисков, объемом в 1ГБ ОЗУ;
 
@@ -148,11 +148,11 @@
 
 10.3 Смонтируйте в каталог /crypto-folder;
 
-## [✅11. На машине DC-MAILSERVER уже развернут почтовый сервер организации.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_11.md)
+## [❌11. На машине DC-MAILSERVER уже развернут почтовый сервер организации.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_11.md)
 
 11.1 Почтовая система является частью критической инфраструктуры, используйте адрес этой машины для проверки 100% доступности с филиалов.
 
-## [✅12. Реализуйте отказоустойчивый шлюз по умолчанию в инфраструктуре ЦОД:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_12.md)
+## [❌12. Реализуйте отказоустойчивый шлюз по умолчанию в инфраструктуре ЦОД:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/C/C_12.md)
 
 12.1 Используйте протокол VRRP (или его аналоги);
 
@@ -161,7 +161,7 @@
 
 # Настройка офиса в Москве
 
-## [1. Убедитесь, что домен FreeIPA на MSK-DC1 развернут корректно:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_1.md)
+## [❌1. Убедитесь, что домен FreeIPA на MSK-DC1 развернут корректно:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_1.md)
 
 1.1 Имя домена — company.cool;
 
@@ -175,15 +175,15 @@
 | gitlab.company.cool  | 192.168.1.3  | Доступ к Gitlab  |
 | mail.company.cool  | 10.15.10.100  | Почтовая инфраструктура  |
 
-## [2. Импортируйте пользователей в домен. Используйте для этого файл по пути - /root/users.csv;](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_2.md)
+## [❌2. Импортируйте пользователей в домен. Используйте для этого файл по пути - /root/users.csv;](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_2.md)
 
 2.1 В качестве логина используйте фамилию пользователя;
 2.2 В качестве пароля - P@ssw0rd;
 2.3 Сделайте так, чтобы пароль не требовал смены для всех пользователей.
 
-## [3. Добавьте компьютеры MSK-ADMINPC и MSK-WORKER в домен FreeIPA.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_3.md)
+## [❌3. Добавьте компьютеры MSK-ADMINPC и MSK-WORKER в домен FreeIPA.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_3.md)
 
-## [✅4. На компьютере MSK-DC1 разверните Основной Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_4.md)
+## [❌4. На компьютере MSK-DC1 разверните Основной Центр сертификации:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/M/M_4.md)
 
 Все веб-сервисы должны быть доступны только по протоколу HTTPS, OpenConnect также.
 
@@ -226,12 +226,12 @@ DNS-сервер - 192.168.1.2 и 77.88.8.1;
 
 # Настройка офиса в Екатеринбурге
 
-## [1. На сервере YEKT-BILLING развернута самописная система контроля за добычей горных пород, система работает с базой данных на сервере YEKT-DB, необходимо исправить следующие особенности платформы:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_1.md)
+## [❌1. На сервере YEKT-BILLING развернута самописная система контроля за добычей горных пород, система работает с базой данных на сервере YEKT-DB, необходимо исправить следующие особенности платформы:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_1.md)
 
 1.1 Сервер работает медленно, выявите причину и устраните неисправность;
 1.2 Согласно внутреннему регламенту компании информация о добытых горных породах храниться только в течение последних 15 лет. Данные старше следует отправить на холодное хранение на сервер DC-STORAGE в каталог /crypto-folder, а из базы данных удалить.
 
-## [2. На сервере YEKT-DB уже есть сервер Zabbix:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_2.md)
+## [❌2. На сервере YEKT-DB уже есть сервер Zabbix:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_2.md)
 
 2.1 Подключите к серверу HTTPS;
 
@@ -239,7 +239,7 @@ DNS-сервер - 192.168.1.2 и 77.88.8.1;
 
 2.3 почтовый аккаунт admin@company.cool подключен к MSK-ADMINPC для доменного пользователя - admin_infra (импортируемый из CSV-файла)
 
-## [3. Сбор логов организуйте на машине YEKT-WORKER, на рабочем столе локального пользователя - yekt_admin с паролем P@ssw0rd. Директория $HOME/Desktop/Logs/, где NAME имя сервера, с которого был взят лог файл:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_3.md)
+## [❌3. Сбор логов организуйте на машине YEKT-WORKER, на рабочем столе локального пользователя - yekt_admin с паролем P@ssw0rd. Директория $HOME/Desktop/Logs/, где NAME имя сервера, с которого был взят лог файл:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_3.md)
 
 3.1 Логи собирать только веб-сервера на YEKT-BILLING и YEKT-DB;
 
@@ -257,9 +257,9 @@ DNS-сервер - 192.168.1.2 и 77.88.8.1;
 
 4.4 Остальные сведения наследуются с основного ЦС.
 
-## [5. Испольуя подчиненный Центр сертификации обеспечьте корректную работу YEKT-BILLING приложения по HTTPS.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_5.md)
+## [❌5. Испольуя подчиненный Центр сертификации обеспечьте корректную работу YEKT-BILLING приложения по HTTPS.](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_5.md)
 
-## [✅6. Реализуйте веб-сайт, на базе YEKT-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_6.md)
+## [❌6. Реализуйте веб-сайт, на базе YEKT-RTR:](https://github.com/Scrocisss/ATM225SCROCK/blob/main/B/Y/Y_6.md)
 
 6.1 веб-сайт с поддержкой авторизации согласено таблице пин-кодов;
 
