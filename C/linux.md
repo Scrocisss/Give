@@ -60,6 +60,8 @@ FROM debian:buster
 COPY --from=golang:1.20-buster /usr/local/go/ /usr/local/go/
 ```
 
+nameserver 8.8.8.8
+
 ```bash
 apt update && apt install docker.io -y
 systemctl start docker
