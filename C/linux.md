@@ -21,3 +21,9 @@ https://habr.com/ru/companies/alexhost/articles/533260/
 Linux table:
 
 https://github.com/volatilityfoundation/volatility3?tab=readme-ov-file
+
+
+unzip /root/mnt/linux.zip -d /root/mnt/linux_symbols
+
+python vol.py -f "/root/mnt/Forensics-Debian10(1)-Snapshot3.vmem" --symbol-dir /root/mnt/linux_symbols linux.info
+
