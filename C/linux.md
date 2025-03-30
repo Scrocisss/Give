@@ -16,3 +16,8 @@ https://askubuntu.com/questions/383057/how-to-decode-the-hash-password-in-etc-sh
 autopsy
 
 https://habr.com/ru/companies/alexhost/articles/533260/
+
+
+Linux table:
+
+https://github.com/volatilityfoundation/volatility3?tab=readme-ov-file
