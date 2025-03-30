@@ -49,6 +49,8 @@ Debian Secure Boot CA
 4.19.0-22-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.260-1 (2022-09-29)
 ```
 
+apt install dwarf2json golang -y
+
 git clone https://github.com/AsafEitani/Volatility3LinuxSymbols
 
 ```bash
