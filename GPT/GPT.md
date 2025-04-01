@@ -17,3 +17,8 @@ https://origin.eqing.tech/
 https://ai.wendabao.net
 
 https://grok1.free2gpt.com/
+
+
+# Pentest 
+
+https://github.com/coreb1t/awesome-pentest-cheat-sheets?tab=readme-ov-file
