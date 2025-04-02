@@ -25,12 +25,12 @@ python3 -m venv myenv
 source myenv/bin/activate
 apt update && apt install -y clang-tidy
 pip install clang-html
+```
 
 How to use?:
 
+```bash
 cd "project directory"
-
 find -name '*.c' | xargs clang-tidy -checks=*,-clang-analyzer=* > clang-tidy.log
-
 python3 -m clang_html clang-tidy.log -o clang-tidy.html
 ```
