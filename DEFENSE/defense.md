@@ -72,3 +72,11 @@ python3 -m clang_html clang-tidy.log -o clang-tidy.html
    28  mkdir -p ~/tmp_exec\nTMPDIR=~/tmp_exec ivette\n
 
 ```
+
+
+
+```bash
+frama-c -wp -wp-rte -wp-prover cvc4 -wp-timeout 30 \
+  -cpp-extra-args="-I/usr/include -I/usr/include/x86_64-linux-gnu" \
+  /home/kali/Desktop/*.c -then -report
+```
