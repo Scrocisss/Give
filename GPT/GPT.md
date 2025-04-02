@@ -22,3 +22,7 @@ https://grok1.free2gpt.com/
 # Pentest 
 
 https://github.com/coreb1t/awesome-pentest-cheat-sheets?tab=readme-ov-file
+
+
+https://ttp.parzival.sh/pentesting/infrastructure/persistence/web-shell
+
