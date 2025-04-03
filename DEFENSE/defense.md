@@ -1,3 +1,10 @@
+docker-compose up --build -d
+
+docker-compose up -d
+
+docker-compose down
+
+
 # PYTHON SAST:
 
 ```bash
